@@ -1,53 +1,34 @@
-# Impact of AI on Financial Services: TFP Visualization
+# Impact of AI in Financial Services
 
-📊 This project visualizes **Total Factor Productivity (TFP)** across key OECD economies and the U.S., showing how productivity evolves over time in financial services—a sector highly influenced by AI adoption.
+This project explores how generative AI adoption is reshaping labor demand and productivity across the financial services sector. It is part of a broader effort to evaluate how AI affects occupational exposure, sectoral value creation, and workforce displacement risks.
 
-## 🚀 Features
+Developed using Python and Streamlit, this interactive dashboard is designed for policymakers, economists, and industry leaders seeking to understand where AI adoption is concentrated and which job categories are most at risk or poised to benefit.
 
-- Interactive Plotly chart of normalized TFP (2015 = 100)
-- Comparison of OECD countries and U.S. data (OECD + BLS)
-- Cleaned to exclude Year-over-Year (YoY) change rows from U.S. data
-- Ready-to-run Jupyter notebook with portable file paths
+---
 
-## 🗂️ Project Structure
+## 🔍 Project Objectives
 
-```
-impact-ai-financial-services/
-├── data/
-│   └── final_tfp_merged_cleaned.csv   # Cleaned dataset for visualization
-├── Visualize_TFP_Clean.ipynb          # Interactive visualization notebook
-├── README.md                          # Project overview and instructions
-```
+- Analyze AI use cases and labor impact in financial services sub-sectors (e.g., insurance, banking, fintech)
+- Visualize occupational exposure using publicly available data
+- Highlight how AI adoption may influence productivity and workforce dynamics
+- Provide a prototype policy tool to support economic and workforce planning
 
-## ▶️ Run It Now
+---
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rcasanova25/impact-ai-financial-services/blob/main/Visualize_TFP_Clean.ipynb)
+## 🛠️ Technologies Used
 
-## 🛠️ Setup Instructions
+- **Python 3.10**
+- **Pandas** for data wrangling
+- **Streamlit** for dashboard visualization
+- **Plotly** for interactive graphs
+- **OpenAI/Anthropic-inspired AI labeling** (manual proxy input simulation for now)
 
-1. Clone the repository:
+---
+
+## 🚀 How to Run
+
+1. Clone the repository  
 ```bash
 git clone https://github.com/Rcasanova25/impact-ai-financial-services.git
 cd impact-ai-financial-services
-```
 
-2. Install dependencies:
-```bash
-pip install pandas plotly
-```
-
-3. Run the notebook in Jupyter or VS Code.
-
-## 📦 Dependencies
-
-- Python 3.8+
-- `pandas`
-- `plotly`
-
-## 📄 License
-
-MIT License – feel free to adapt or extend for your own research.
-
-## 🤝 Contributions
-
-Suggestions and forks welcome!
