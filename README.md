@@ -1,34 +1,41 @@
-# Impact of AI in Financial Services
+# AI and Productivity: A Visualization Prototype
 
-This project explores how generative AI adoption is reshaping labor demand and productivity across the financial services sector. It is part of a broader effort to evaluate how AI affects occupational exposure, sectoral value creation, and workforce displacement risks.
+This repository contains an early prototype for visualizing Total Factor Productivity (TFP) trends across countries and sectors. It represents the first step in a broader independent research project focused on quantifying how AI adoption is reshaping labor demand, productivity, and economic infrastructure.
 
-Developed using Python and Streamlit, this interactive dashboard is designed for policymakers, economists, and industry leaders seeking to understand where AI adoption is concentrated and which job categories are most at risk or poised to benefit.
+The goal of this project is to eventually model the relationship between AI exposure and productivity growth using structured economic data and real-world signals. This initial code sample is designed to demonstrate:
+- Technical proficiency with data cleaning, visualization, and interactivity
+- The use of Total Factor Productivity as a core metric in economic analysis
+- A foundation for building more robust models of AI’s economic impact
 
 ---
 
-## 🔍 Project Objectives
+## 🚀 Live App (Streamlit)
 
-- Analyze AI use cases and labor impact in financial services sub-sectors (e.g., insurance, banking, fintech)
-- Visualize occupational exposure using publicly available data
-- Highlight how AI adoption may influence productivity and workforce dynamics
-- Provide a prototype policy tool to support economic and workforce planning
+Once deployed, a live demo will be available at:
+`[Streamlit deployment link will go here]`
+
+The app generates a simple but flexible line chart that allows users to:
+- Compare TFP trends across countries
+- Visualize productivity changes over time
+- Filter by region or sector (depending on data updates)
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Python 3.10**
-- **Pandas** for data wrangling
-- **Streamlit** for dashboard visualization
-- **Plotly** for interactive graphs
-- **OpenAI/Anthropic-inspired AI labeling** (manual proxy input simulation for now)
+- Python 3.10  
+- Pandas  
+- Streamlit  
+- Plotly
 
 ---
 
-## 🚀 How to Run
+## 📦 How to Run Locally
 
-1. Clone the repository  
+Clone the repo and install the dependencies:
+
 ```bash
-git clone https://github.com/Rcasanova25/impact-ai-financial-services.git
-cd impact-ai-financial-services
-
+git clone https://github.com/Rcasanova25/ai-productivity-tfp.git
+cd ai-productivity-tfp
+pip install -r requirements.txt
+streamlit run app.py
