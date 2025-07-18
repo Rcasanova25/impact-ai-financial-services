@@ -9,13 +9,8 @@ import os
 
 
 
-data_path = os.path.join("data", "final_tfp_merged_cleaned.csv")
+data_path = "data/final_tfp_merged_cleaned.csv"
 
-if not os.path.exists(data_path):
-	print(f"Warning: File not found: {data_path}. Trying absolute path fallback.")
-	data_path = r"C:\Users\Robert Casanova\OneDrive\Documents\Impact_AI_Financial_Services\data\final_tfp_merged_cleaned.csv"
-	if not os.path.exists(data_path):
-		raise FileNotFoundError(f"File not found at both relative and absolute paths: {data_path}")
 df = pd.read_csv(data_path)
 
 df.head()
@@ -42,7 +37,6 @@ fig.update_layout(
 )
 
 fig.show()
-
 
 
 
