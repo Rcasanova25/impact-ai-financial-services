@@ -11,7 +11,6 @@ for broader analysis of how AI adoption may impact labor and productivity in the
 """)
 data_path = "final_tfp_merged_cleaned.csv"
 
-
 try:
     df = pd.read_csv(data_path)
 
