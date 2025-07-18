@@ -6,7 +6,7 @@ st.set_page_config(page_title="AI & Productivity: TFP Viewer", layout="wide")
 
 st.title("Total Factor Productivity Visualization in the Finance and Insurance Sector")
 st.markdown("""
-This prototype explores trends in total factor productivity (TFP)in the finance and insurance sector across countries or regions as a foundation 
+This prototype explores trends in total factor productivity (TFP) in the finance and insurance sector across countries or regions as a foundation 
 for broader analysis of how AI adoption may impact labor and productivity in the global economy.
 """)
 data_path = "final_tfp_merged_cleaned.csv"
